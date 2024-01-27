@@ -10,9 +10,9 @@ OpenSCAD code to draw running figure wireframes.
 Inspired by a similar CPC6128 home computer program from my childhood in the early 1990s, 
 whose name I unfortunately no longer remember (Runner Simulator?)
 
-![Runner Sample 1](runner/runner1.jpg)
-![Runner Sample 1](runner/runner2.jpg)
-![Runner Sample 1](runner/runner3.jpg)
+![Runner Sample 1](runner/runner1.png)
+![Runner Sample 1](runner/runner2.png)
+![Runner Sample 1](runner/runner3.png)
 
 
 
