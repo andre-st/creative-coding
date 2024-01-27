@@ -3,6 +3,10 @@
 A few of my source codes that I still found on my computer. 
 They were part or should have been part of some graphics sub-projects.
 
+- [Runner](#runner)
+- [Collage](#collage)
+
+
 
 ## [Runner](./runner/)
 
@@ -23,5 +27,9 @@ Currently it reproduces the style of Jelle Marten's "[In The Quivering Forest](h
 It creates and composes SVG _patterns_ instead of drawing on a HTML5 canvas.
 
 Sample Images TODO
+
+
+
+## To be continued ...
 
 
