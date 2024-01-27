@@ -1,0 +1,18 @@
+...
+		<link rel="stylesheet" property="stylesheet" type="text/css" media="all" href="collage.css?v=1.0">
+...		
+		<div id="test" style="width: 512px; height: 768px"></div>
+
+		<script src="collage.js?v=1.0"></script>
+		<script>
+			
+			const materials1 = [  // (fine/structured) Paintings
+				new collages.materials.Image( "1.jpg" ),
+				new collages.materials.Image( "2.jpg" ),
+				new collages.materials.Image( "3.jpg" ),
+				new collages.materials.Image( "4.jpg" )
+			];
+			
+			collages.drawMartens( document.getElementById( "test" ), materials1 );
+		</script>
+...
