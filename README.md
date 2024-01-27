@@ -1,7 +1,7 @@
 # Andre's Creative Coding Archive
 
 A few of my source codes that I still found on my computer. 
-They were part or should have been part of some graphics sub-projects.
+They were part or should have been part of some private graphics sub-projects.
 
 - [Runner](#runner)
 - [Collage](#collage)

@@ -5,4 +5,7 @@
 *.log
 *.tar.gz
 *.zip
+room-furn/**
+bike/**
+**screenshot**
 
