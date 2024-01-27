@@ -1,7 +1,9 @@
 # Andre's Creative Coding Archive
 
-A few of my source codes that I still found on my computer. 
-They were part or should have been part of some private graphics sub-projects.
+I did illustrations, planning, icons, etc. for websites, promo material, GUIs 
+and so on usually directly in dedicated graphics programs where programming played no role.
+However, there a few of my source codes that I still found on my computer
+and were part or should have been part of some private graphics projects.
 
 - [Runner](#runner-2021)
 - [Collage](#collage-2018)
