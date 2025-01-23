@@ -77,7 +77,7 @@ module figure( v )
 {
 	torso();
 	
-	v_leg = min( 120, v );  // Do flex joints too much 
+	v_leg = min( 120, v );  // Do not flex joints too much
 	v_arm = min(  60, v );  // Do not pierce own body
 	
 	translate([ 0, 0, len_torso ]) 
