@@ -29,7 +29,7 @@ like this and was therefore invited to experiment with it.
 
 ## [Collage (2018)](./collage/)
 
-Javascript/CSS to generate collages from some given images.
+Javascript/CSS to generate random collages from some given images.
 Currently it reproduces the style of Jelle Marten's "[In The Quivering Forest](https://www.google.com/search?q=Jelle+Martens+%22In+The+Quivering+Forest%22&tbm=isch)" only. 
 It creates and composes SVG _patterns_ instead of drawing on a HTML5 canvas.
 
