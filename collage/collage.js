@@ -23,7 +23,7 @@ const collages =
 	/**
 	 * Helper-function to reduce repetitive code / improve overall readability:
 	 * creates an NS element and sets attributes with their corresponding namespace.
-	 * 
+	 *
 	 * @return  {Element}  new element from the SVG namespace with the given attributes
 	 * @param   {String}   element name (lowercase)
 	 * @param   {Object}   attributes
@@ -48,7 +48,7 @@ const collages =
 	/**
 	 * Generates source-material for a collage
 	 * @namespace
-	 * 
+	 *
 	 */
 	materials:
 	{
@@ -67,7 +67,7 @@ const collages =
 				const bpat = collages._createSvg( "pattern", {
 					id           : theId,
 					class        : "bpat bpatColor",
-					patternUnits : "userSpaceOnUse",  // absolute coords
+					patternUnits : "userSpaceOnUse",  // Absolute coords
 					width        : theWidth,
 					height       : theHeight
 				});
@@ -80,7 +80,7 @@ const collages =
 		
 		/**
 		 * @example  new collages.materials.Image( "myimage.jpg" )
-		 * @param    {String}                   the image url
+		 * @param    {String}                    the image url
 		 * @return   {collages.materials.Image}  instance
 		 * @public
 		 */
@@ -92,7 +92,7 @@ const collages =
 				const bpat = collages._createSvg( "pattern", {
 					id           : theId,
 					class        : "bpat bpatImage",
-					patternUnits : "userSpaceOnUse",  // absolute coords
+					patternUnits : "userSpaceOnUse",  // Absolute coords
 					width        : theWidth,
 					height       : theHeight
 				});
@@ -133,7 +133,7 @@ const collages =
 	 *  rotated."
 	 *  
 	 * - no white-tile points to the left: 
-	 *   as heaviest tile it gives all a reading direction/flow to the right, 
+	 *   being the heaviest tile it gets everything a reading direction/flow to the right, 
 	 *   also emphasises the triangle geometries even more;
 	 *   tells the brain how to read this thing;
 	 *   to both sides it would give it another character, not so triangular anymore;
@@ -243,7 +243,7 @@ const collages =
 		svg.appendChild( def );
 		
 		for( var i = 0; i < theMaterials.length; i++ )  // Define base patterns:
-			def.appendChild( theMaterials[i].toPattern( "bpat"+i, w, h ) );
+			def.appendChild( theMaterials[i].toPattern( "bpat"+i, w, h ));
 		
 		for( var y = -triH; y < h; y += triH/2 )  // All the triangles:
 		{

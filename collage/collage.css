@@ -6,8 +6,6 @@ html
 	padding: 0;
 }
 
-
-
 .collage
 {
 	margin: 0;
@@ -17,7 +15,7 @@ html
 .collage.martens
 {
 	background-color: #52bab0;
-	background-image: url( http://api.thumbr.it/whitenoise-361x370.png?background=52bab0ff&noise=3f3f3f&density=15&opacity=23 );
+	background-image: url( "white.jpg" );
 }
 
 .collage.martens .tile
@@ -30,13 +28,6 @@ html
 .collage.martens .tile.group2 { fill: rgb(255, 255, 128); stroke: rgb( 255, 255, 128 ); }
 .collage.martens .tile.group3 { fill: rgb(204, 255, 204); stroke: rgb( 204, 255, 204 ); }
 .collage.martens .tile.group4 { fill: rgb(229, 229, 229); stroke: rgb( 229, 229, 229 ); }
-
-
-
-
-
-
-
 
 
 

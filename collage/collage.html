@@ -1,18 +1,33 @@
-...
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Collage Demo</title>
+	</head>
+	<body>
+		
+		<button onclick="location.reload()" style="padding: 0.5em 1em;">Reload</button><br><br>
+		
+		
 		<link rel="stylesheet" property="stylesheet" type="text/css" media="all" href="collage.css?v=1.0">
-...		
+		
 		<div id="test" style="width: 512px; height: 768px"></div>
-
+		
 		<script src="collage.js?v=1.0"></script>
 		<script>
 			
-			const materials1 = [  // (fine/structured) Paintings
-				new collages.materials.Image( "1.jpg" ),
-				new collages.materials.Image( "2.jpg" ),
-				new collages.materials.Image( "3.jpg" ),
-				new collages.materials.Image( "4.jpg" )
+			const materials1 = [  // (fine/structured) paintings on the same topic
+				new collages.materials.Image( "https://upload.wikimedia.org/wikipedia/commons/d/de/Waxy_Monkey_Frog%2C_Canadian_Museum_of_Nature%2C_Ottawa.jpg" ),
+				new collages.materials.Image( "https://upload.wikimedia.org/wikipedia/commons/0/04/Conte_Meiffren_Nature_morte_%C3%A0_l%27aigui%C3%A8re_renvers%C3%A9e.jpg" ),
+				new collages.materials.Image( "https://upload.wikimedia.org/wikipedia/commons/7/72/Sahurs_Meadows_in_Morning_Sun_MET_DT1870.jpg" ),
+				new collages.materials.Image( "https://upload.wikimedia.org/wikipedia/commons/7/72/Birds_and_nature_magazine_%281896%29_%2820375679492%29.jpg" )
 			];
 			
 			collages.drawMartens( document.getElementById( "test" ), materials1 );
 		</script>
-...
+
+		<p>
+			Source Image Attributions (Wikimedia Commons):
+			<br>Salwa Farwaneh (CC), Meiffren Conte (PD), Alfred Sisley (PD), Internet Archive Book Images
+		</p>
+	</body>
+</html>
